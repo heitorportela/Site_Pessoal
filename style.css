@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+body.temaEscuro main{
+    background-color: black;
+    color: white;
+}
+body.temaEscuro header{
+    background-color: black;
+    color: white;
+}
+body.temaEscuro {
+    background-color: black;
+    color: white;
+}
+body.temaEscuro footer{
+    background-color: black;
+    color: white;
+}
+#botao_mudar_tema{
+    position: fixed;
+    right: 50px;
+    top: 70px;
+    border: white 2px inset;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
