@@ -1,22 +1,40 @@
 body{
-    background-color: white;
-    color: black;
+    background-color: rgb(229, 245, 246);
+    color: rgb(6, 0, 96);
     font-family: "Poppins", sans-serif;
 }
+h1{
+    color: rgb(8, 8, 107);
+}
+h2{
+    color:rgb(10, 10, 102);
+}
+h3{
+    color:rgb(13, 13, 98);
+}
+.temaEscuro h1{
+    color: rgb(227, 141, 141);
+}
+.temaEscuro h2{
+    color:rgb(217, 134, 134);
+}
+.temaEscuro h3{
+    color:rgb(223, 135, 135);
+}
 body.temaEscuro main{
-    background-color: black;
-    color: white;
+    background-color: rgb(70, 5, 5);
+    color: rgb(252, 217, 217);
 }
 body.temaEscuro header{
-    background-color: black;
+    background-color: rgb(70, 5, 5);
     color: white;
 }
 body.temaEscuro {
-    background-color: black;
+    background-color: rgb(70, 5, 5);
     color: white;
 }
 body.temaEscuro footer{
-    background-color: black;
+    background-color: rgb(70, 5, 5);
     color: white;
 }
 #botao_mudar_tema{
@@ -30,8 +48,39 @@ body.temaEscuro footer{
 }
 .nav a{
     text-decoration: none;
+    color: rgb(67, 48, 127);
 }
 .nav a:hover{
     text-decoration: underline;
     color: aqua;
+}
+.temaEscuro .nav a{
+    text-decoration: none;
+    color: rgb(235, 153, 154);
+}
+.temaEscuro .nav a:hover{
+    text-decoration: underline;
+    color: rgb(251, 60, 60);
+}
+.algo{
+    color: red;
+}
+#oi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#bien{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.class{
+    display: flex;
+    flex-direction: column;
 }
